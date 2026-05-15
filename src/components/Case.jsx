@@ -1,6 +1,6 @@
 function Case() {
   return (
-    <section className="relative overflow-hidden px-6 py-20 max-w-7xl mx-auto">
+    <section id="case" className="relative overflow-hidden px-6 py-20 max-w-7xl mx-auto">
       {/* Grid-сетка на фоне */}
       <div
         className="absolute inset-0 pointer-events-none"
@@ -15,7 +15,7 @@ function Case() {
 
       <div className="relative z-10">
         {/* Метка секции */}
-        <div className="flex items-center gap-2.5 text-[10px] text-tg-green tracking-[0.2em] mb-4">
+        <div className="flex items-center gap-2.5 text-[10px] text-tg-green tracking-[0.2em] font-mono mb-4">
           <span className="w-4 h-px bg-tg-green"></span>
           // SECTION_06 · CASE
         </div>
@@ -51,8 +51,8 @@ function Case() {
                 T
               </div>
               <div>
-                <div className="text-sm text-white font-semibold">Targetron</div>
-                <div className="text-[11px] text-[#7A8A99]">@targetron_bot</div>
+                <div className="text-sm text-white font-semibold">Targeton</div>
+                <div className="text-[11px] text-[#7A8A99]">@Targeton_bot</div>
               </div>
             </div>
 
@@ -98,10 +98,10 @@ function Case() {
           <div className="flex flex-col gap-3">
             {/* Метрика 1 — время до ответа */}
             <div className="p-5 rounded-xl bg-tg-bg-soft/60 border border-tg-green/20">
-              <div className="text-[10px] text-tg-text-muted tracking-widest mb-2">
+              <div className="text-[10px] text-tg-text-muted tracking-widest mb-2 font-mono">
                 // TIME_TO_REPLY
               </div>
-              <div className="text-3xl font-bold text-tg-green leading-none tracking-tight mb-1.5">
+              <div className="text-3xl font-bold text-tg-green leading-none tracking-tight font-mono mb-1.5">
                 8 мин
               </div>
               <div className="text-[11.5px] leading-relaxed text-tg-text-dim">
@@ -111,7 +111,7 @@ function Case() {
 
             {/* Метрика 2 — сумма сделки (фиолетовая) */}
             <div className="p-5 rounded-xl bg-tg-bg-soft/60 border border-tg-green/20">
-              <div className="text-[10px] text-tg-text-muted tracking-widest mb-2">
+              <div className="text-[10px] text-tg-text-muted tracking-widest mb-2 font-mono">
                 // DEAL_CLOSED
               </div>
               <div className="text-3xl font-bold text-tg-purple-soft leading-none tracking-tight mb-1.5">
@@ -124,14 +124,14 @@ function Case() {
 
             {/* Метрика 3 — ROI */}
             <div className="p-5 rounded-xl bg-tg-bg-soft/60 border border-tg-green/20">
-              <div className="text-[10px] text-tg-text-muted tracking-widest mb-2">
+              <div className="text-[10px] text-tg-text-muted tracking-widest mb-2 font-mono">
                 // ROI_EXAMPLE
               </div>
-              <div className="text-3xl font-bold text-tg-green leading-none tracking-tight mb-1.5">
+              <div className="text-3xl font-bold text-tg-green leading-none tracking-tight font-mono mb-1.5">
                 ×60
               </div>
               <div className="text-[11.5px] leading-relaxed text-tg-text-dim">
-                Подписка на Targetron окупается с одного закрытого лида
+                Подписка на Targeton окупается с одного закрытого лида
               </div>
             </div>
           </div>

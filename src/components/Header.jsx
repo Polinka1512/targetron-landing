@@ -14,7 +14,7 @@ function Header() {
           <circle cx="20" cy="20" r="2" fill="#00FF94" />
         </svg>
         <span className="font-bold text-base text-white tracking-tight">
-          TARGETRON
+          TARGETON 
         </span>
       </div>
 

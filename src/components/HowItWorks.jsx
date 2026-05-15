@@ -1,6 +1,6 @@
 function HowItWorks() {
   return (
-    <section className="relative overflow-hidden px-6 py-20 max-w-7xl mx-auto">
+    <section id="how" className="relative overflow-hidden px-6 py-20 max-w-7xl mx-auto">
       {/* Grid-сетка на фоне */}
       <div
         className="absolute inset-0 pointer-events-none"
@@ -15,7 +15,7 @@ function HowItWorks() {
 
       <div className="relative z-10">
         {/* Метка секции */}
-        <div className="flex items-center gap-2.5 text-[10px] text-tg-green tracking-[0.2em] mb-4">
+        <div className="flex items-center gap-2.5 text-[10px] text-tg-green tracking-[0.2em] font-mono mb-4">
           <span className="w-4 h-px bg-tg-green"></span>
           // SECTION_04 · HOW_IT_WORKS
         </div>
@@ -35,7 +35,7 @@ function HowItWorks() {
         <div className="grid md:grid-cols-3 gap-3.5">
           {/* Шаг 1 */}
           <div className="relative p-5 rounded-xl bg-tg-bg-soft/60 border border-tg-green/18">
-            <div className="flex items-center gap-2 text-[10px] text-tg-green tracking-[0.18em] mb-3">
+            <div className="flex items-center gap-2 text-[10px] text-tg-green tracking-[0.18em] font-mono mb-3">
               <span className="w-1.5 h-1.5 rounded-full bg-tg-green" style={{ boxShadow: "0 0 8px #00FF94" }}></span>
               STEP_01
             </div>
@@ -55,7 +55,7 @@ function HowItWorks() {
 
           {/* Шаг 2 */}
           <div className="relative p-5 rounded-xl bg-tg-bg-soft/60 border border-tg-green/18">
-            <div className="flex items-center gap-2 text-[10px] text-tg-green tracking-[0.18em] mb-3">
+            <div className="flex items-center gap-2 text-[10px] text-tg-green tracking-[0.18em] font-mono mb-3">
               <span className="w-1.5 h-1.5 rounded-full bg-tg-green" style={{ boxShadow: "0 0 8px #00FF94" }}></span>
               STEP_02
             </div>
@@ -76,7 +76,7 @@ function HowItWorks() {
 
           {/* Шаг 3 */}
           <div className="relative p-5 rounded-xl bg-tg-bg-soft/60 border border-tg-green/18">
-            <div className="flex items-center gap-2 text-[10px] text-tg-green tracking-[0.18em] mb-3">
+            <div className="flex items-center gap-2 text-[10px] text-tg-green tracking-[0.18em] font-mono mb-3">
               <span className="w-1.5 h-1.5 rounded-full bg-tg-green" style={{ boxShadow: "0 0 8px #00FF94" }}></span>
               STEP_03
             </div>

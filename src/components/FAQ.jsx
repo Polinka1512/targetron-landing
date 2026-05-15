@@ -8,7 +8,7 @@ function FAQ() {
   const items = [
     {
       q: "Это законно? Бот же читает чужие сообщения",
-      a: "Targetron анализирует только публичные Telegram-чаты — те, куда любой может зайти по ссылке. Это те же сообщения, которые видишь ты сам, когда заходишь в чат. Бот не имеет доступа к личным перепискам и закрытым группам.",
+      a: "Targeton анализирует только публичные Telegram-чаты — те, куда любой может зайти по ссылке. Это те же сообщения, которые видишь ты сам, когда заходишь в чат. Бот не имеет доступа к личным перепискам и закрытым группам.",
     },
     {
       q: "Сколько стоит и есть ли бесплатный период?",
@@ -28,12 +28,12 @@ function FAQ() {
     },
     {
       q: "Чем отличается от обычного парсера?",
-      a: "Обычный парсер ловит все упоминания ключевых слов подряд — фильтровать тебе. Targetron понимает контекст и отсекает рекламу, спам и обсуждения «вообще» — присылает только реальные запросы.",
+      a: "Обычный парсер ловит все упоминания ключевых слов подряд — фильтровать тебе. Targeton понимает контекст и отсекает рекламу, спам и обсуждения «вообще» — присылает только реальные запросы.",
     },
   ];
 
   return (
-    <section className="relative overflow-hidden px-6 py-20 max-w-7xl mx-auto">
+    <section id="faq" className="relative overflow-hidden px-6 py-20 max-w-7xl mx-auto">
       {/* Grid-сетка на фоне */}
       <div
         className="absolute inset-0 pointer-events-none"
@@ -48,7 +48,7 @@ function FAQ() {
 
       <div className="relative z-10">
         {/* Метка секции */}
-        <div className="flex items-center gap-2.5 text-[10px] text-tg-green tracking-[0.2em] mb-4">
+        <div className="flex items-center gap-2.5 text-[10px] text-tg-green tracking-[0.2em] font-mono mb-4">
           <span className="w-4 h-px bg-tg-green"></span>
           // SECTION_07 · FAQ
         </div>

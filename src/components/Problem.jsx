@@ -16,7 +16,7 @@ function Problem() {
       {/* Контент */}
       <div className="relative z-10">
         {/* Метка секции */}
-        <div className="flex items-center gap-2.5 text-[10px] text-tg-green tracking-[0.2em] mb-4">
+        <div className="flex items-center gap-2.5 text-[10px] text-tg-green tracking-[0.2em] font-mono mb-4">
           <span className="w-4 h-px bg-tg-green"></span>
           // SECTION_03 · PROBLEM
         </div>

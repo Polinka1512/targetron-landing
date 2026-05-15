@@ -1,6 +1,6 @@
 function Features() {
   return (
-    <section className="relative overflow-hidden px-6 py-20 max-w-7xl mx-auto">
+    <section id="features" className="relative overflow-hidden px-6 py-20 max-w-7xl mx-auto">
       {/* Grid-сетка на фоне */}
       <div
         className="absolute inset-0 pointer-events-none"
@@ -29,7 +29,7 @@ function Features() {
 
       <div className="relative z-10">
         {/* Метка секции */}
-        <div className="flex items-center gap-2.5 text-[10px] text-tg-green tracking-[0.2em] mb-4">
+        <div className="flex items-center gap-2.5 text-[10px] text-tg-green tracking-[0.2em] font-mono mb-4">
           <span className="w-4 h-px bg-tg-green"></span>
           // SECTION_05 · FEATURES
         </div>
